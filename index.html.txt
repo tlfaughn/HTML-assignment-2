@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div class="row p-4">
+        <div id="formdiv" style="text-align: center;"
+            class="container text-center bg-light p-3 border border-dark mx-auto col-10 col-md-8 col-lg-6">
+            <form id="form_form" style=" border:1px"></form>
+            <h1>Sign in</h1>
+            <label>Email or phone number:</label><br>
+            <input type="text" id="personalID" plaaceholder="Email"><br>
+            <a href="#!">Forgot email?</a><br>
+            <br>
+            <label>Password:</label><br>
+            <input type="text" id="password" plaaceholder="Password..."><br>
+            <a href="#!">Forgot password?</a><br><br>
+
+            <button id="continue">Continue</button><br>
+            <p></p>
+            <p>⎯⎯⎯⎯⎯ New to Amazon? ⎯⎯⎯⎯⎯</p>
+            <button id="new">Create new Amazon account</button>
+            </form>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
