@@ -1,0 +1,22 @@
+
+ #forgot-email {
+    color: blue
+} 
+
+#forgot-password {
+    color: blue
+} 
+
+#continue {
+    color: black;
+    border: .1mm;
+    background: fixed;
+    background-color: rgba(255, 149, 0, 0.822);
+}
+
+#new {
+    color: black;
+    border: .1mm;
+    background: fixed;
+    background-color: rgba(255, 149, 0, 0.822);
+}
